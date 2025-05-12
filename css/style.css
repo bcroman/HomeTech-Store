@@ -1,7 +1,33 @@
 /* Gobal Styling */
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color:rgb(23, 121, 124); /* First Colour */
-    color: aliceblue; /* Font Colour */
+    background-color: rgb(23, 121, 124);
+    color: aliceblue;
+}
+
+/* Nav Bar */
+.navbar {
+    background-color: #3b3b3b;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar .nav-links li a:hover {
+    color: rgb(23, 121, 124);
 }
