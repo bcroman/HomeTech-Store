@@ -1,0 +1,7 @@
+/* Gobal Styling */
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(23, 121, 124); /* First Colour */
+    color: aliceblue; /* Font Colour */
+}
