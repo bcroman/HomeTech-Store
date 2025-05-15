@@ -31,6 +31,8 @@ require_once('../auth/session_check.php');
   echo("Welcome, " . $_SESSION['username']);
   ?>
 
+  <a href="../auth/logout.php">Logout</a>
+
 </body>
 
 </html>
