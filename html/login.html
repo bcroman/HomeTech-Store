@@ -12,7 +12,7 @@
     <ul class="nav-links">
       <li><a href="../index.html">Home</a></li>
       <li><a href="">Products</a></li>
-      <li><a href="">Account</a></li>
+      <li><a href="../php/customer/account_page.php">Account</a></li>
       <li><a href="">Basket</a></li>
     </ul>
   </nav>
@@ -24,7 +24,7 @@
     <p>Using the form to login into your account!</p>
 
     <!-- Account Form -->
-    <form>
+    <form action="../php/auth/login_process.php" method="post">
       <label for="username">Username:</label><br />
       <input type="text" id="username" name="username" required /><br />
       <label for="password">Password:</label><br />
